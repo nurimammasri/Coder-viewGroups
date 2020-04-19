@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectView</string>
+    <string name="button">button</string>
+    <string name="linear_layout">Linear layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="table_layout">Table layout</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="horizontal">HORIZONTAL</string>
+    <string name="hori">Hori</string>
+    <string name="ver">ver</string>
+    <string name="vertical">VERTICAL</string>
+    <string name="grid">GRID</string>
+    <string name="email">Email</string>
+    <string name="nama">Nama</string>
+    <string name="submit">Submit</string>
+    <string name="password">password</string>
+    <string name="background">background</string>
+    <string name="icon">Icon</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="onclicklistener">onClickListener</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+</resources>

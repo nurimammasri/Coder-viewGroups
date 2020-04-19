@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_onclicklistener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/onclicklistener" />
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_onclicklistener"
+        android:layout_centerHorizontal="true"
+        android:text="@string/linear_layout" />
+
+    <Button
+        android:id="@+id/btn_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_linear"
+        android:layout_centerHorizontal="true"
+        android:text="@string/relative_layout" />
+
+    <Button
+        android:id="@+id/btn_constrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_relative"
+        android:layout_centerHorizontal="true"
+        android:text="@string/constraint_layout" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_constrain"
+        android:layout_centerHorizontal="true"
+        android:text="@string/table_layout" />
+
+    <Button
+        android:id="@+id/btn_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_table"
+        android:layout_centerHorizontal="true"
+        android:text="@string/frame_layout" />
+
+</RelativeLayout>
